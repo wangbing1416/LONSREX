@@ -1,0 +1,10 @@
+{
+  "attribution_200k": {
+    "file_name": "/yourRootpath/train_data/attribution_200k.jsonl",
+    "num_samples": 200000,
+    "columns": {
+      "prompt": "input",
+      "response": "output"
+    }
+  }
+}

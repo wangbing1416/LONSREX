@@ -1,0 +1,10 @@
+{
+    "dataset": "multidis",
+    "accuracy": 0.8612224448897795,
+    "f1_positive": 0.9101524489133961,
+    "f1_negative": 0.6952695269526953,
+    "f1_micro": 0.8612224448897795,
+    "f1_macro": 0.8027109879330456,
+    "real_label_num": 1476,
+    "fake_label_num": 520
+}
