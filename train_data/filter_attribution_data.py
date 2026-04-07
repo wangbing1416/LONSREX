@@ -164,7 +164,7 @@ if __name__ == '__main__':
             deltas.append(full_score - score)
             recs.append(1 if full_score - score > 0 else 0)
 
-        metric = (sum(deltas) / len(deltas)) * (1 - sum(recs) / len(deltas))
+        metric = (max(0, sum(deltas) / len(deltas))) * (1 - sum(recs) / len(deltas))
         length = len(item['steps_scores'])
 
         lengths.append(length)
